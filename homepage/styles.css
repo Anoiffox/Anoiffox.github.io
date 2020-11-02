@@ -1,0 +1,131 @@
+/* Style for header on every page */
+#heading {
+    background-color: #FFFFFF ;
+    color: #9560C8;
+    margin: 0px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.column1 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.column2 {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+/* Style for tool bar to change your page */
+.toolbar {
+    background-color: #FFFFFF ;
+    border-style: solid;
+    border-color: #8852D2;
+    text-align: center;
+    padding: .6rem;
+}
+
+.toolbar a {
+    color: #9560C8;
+    border-style: solid;
+    border-color: #8852D2;
+    padding: 0rem 1rem;
+}
+
+/* General text settings as well as indents for introductory paragraphs on homepage and larger font for key terms on homepage */
+body {
+    background-color: #A467DE;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin: 5px 5px;
+}
+
+body h2 {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.intro {
+    text-indent: 20px;
+}
+
+.mini_header {
+    font-size: 1.7rem;
+}
+
+/* Style for the data of phrases and latin translations and pictures */
+main {
+    background-color: #A467DE;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1;
+    text-align: left;
+}
+
+
+main div {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+main p {
+    text-indent: 15px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+/* Style for interactive Latin conversations */
+
+.interactive {
+    background-color: #FFFFFF;
+    color: #9560C8;
+    padding: 2rem 1rem;
+    text-align: center;
+    float: right;
+}
+
+.sender {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #2151C8;
+    text-align: left;
+    height: 45px;
+    padding: .5rem;
+    
+}
+
+.reply {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+
+/* Style changes to buttons taken from Bootstrap */
+.btn {
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #A467DE;
+    border-color: #A467DE;
+}
+
+/* General hover link settings, and color settings for links on additional resources page */
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+    color: #529CD2;
+}
+
